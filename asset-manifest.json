@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ohla/static/css/main.89576d5c.css",
+    "main.js": "/ohla/static/js/main.433e12d9.js",
+    "static/js/988.d8ed2c28.chunk.js": "/ohla/static/js/988.d8ed2c28.chunk.js",
+    "static/media/space.mp4": "/ohla/static/media/space.1ff7f24334b7380fb291.mp4",
+    "static/media/cube.png": "/ohla/static/media/cube.cc4ca602efe829db32fe.png",
+    "index.html": "/ohla/index.html",
+    "main.89576d5c.css.map": "/ohla/static/css/main.89576d5c.css.map",
+    "main.433e12d9.js.map": "/ohla/static/js/main.433e12d9.js.map",
+    "988.d8ed2c28.chunk.js.map": "/ohla/static/js/988.d8ed2c28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89576d5c.css",
+    "static/js/main.433e12d9.js"
+  ]
+}
