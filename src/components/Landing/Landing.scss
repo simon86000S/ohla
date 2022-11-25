@@ -1,0 +1,26 @@
+.Landing {
+ 
+  .brand {
+    color: white;
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 55px;
+      font-size: 20px;
+      
+    }
+  }
+  h1 {
+    color: white;
+    font-size: 104px;
+    margin-left: 40px;
+  }
+  .space {
+    display: flex;
+    video {
+      position: absolute;
+      right: 25px;
+      bottom: 40px;
+    }
+  }
+}

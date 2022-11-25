@@ -1,0 +1,48 @@
+.Header {
+  position: sticky;
+  top: -30px;
+  height: 100px;
+  background-color: black;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+
+    h1 {
+      cursor: pointer;
+      position: relative;
+    }
+    .logo {
+      img {
+        position: absolute;
+        cursor: pointer;
+        top: 32%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        animation: mouve 5s infinite alternate-reverse;
+      }
+    }
+  }
+}
+@keyframes mouve {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  background-color: black;
+}
+.cursor {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(236, 225, 225);
+  border-radius: 50%;
+ 
+}
