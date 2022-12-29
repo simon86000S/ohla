@@ -2,21 +2,18 @@ import React, { useRef } from "react";
 import "./Header.scss";
 import logo from "../img/cube.png";
 
-
-const Header = () => {
- 
+const Header = ({ age, incrementAge }) => {
   return (
     <div className="Header">
-     
       <div className="nav">
-        <div className='Contact'>
+        <div className="Contact">
           <h1>Contact</h1>
         </div>
         <div className="logo">
-        <img src={logo}></img>
+          <img src={logo}></img>
         </div>
         <div className="featured">
-        <h1>Featured</h1> 
+          <h1>Featured</h1>
         </div>
       </div>
     </div>
